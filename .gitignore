@@ -1,0 +1,6 @@
+
+*.cache
+/vendor/
+/.idea/
+assets/temp-img/
+composer.lock

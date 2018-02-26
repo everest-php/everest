@@ -1,0 +1,28 @@
+{
+    "name": "akitech/hooks",
+    "description": "Hooks is a Powerful yet Lightweight PHP Framework for rapid development.",
+    "version": "1.0.0",
+    "type": "project",
+    "require": {
+        "akitech/hooks-src": "1.0.1.x-dev",
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "hooks\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tika Datta Pahadi",
+            "email": "tika.pahadi@fusionstak.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    }
+}
