@@ -5,8 +5,8 @@
 I was a very big fan of the MVC-framework implemented by ASP.Net. This framwork implements very similar pattern and should be familiar to ASP.Net developers.
 
 # Installation
-- Using composer: `composer create-project akitech/hooks -s dev`
-- Using git: `git clone https://github.com/PAHADIx/everest-php.git`
+- Using composer: `composer create-project everest-php/everest`
+- Using git: `git clone https://github.com/everest-php/everest.git`
 - Or simply, download this repositoy as zip.
 
 
