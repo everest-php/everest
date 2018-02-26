@@ -15,10 +15,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Tika Datta Pahadi",
-            "email": "tika.pahadi@fusionstak.com"
+            "name": "Tika Pahadi",
+            "email": "tika.pahadi@selu.edu"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 }
