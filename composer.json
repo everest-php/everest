@@ -19,10 +19,5 @@
             "email": "tika.pahadi@fusionstak.com"
         }
     ],
-    "minimum-stability": "stable",
-    "extra": {
-        "branch-alias": {
-            "master": "1.0.0"
-        }
-    }
+    "minimum-stability": "stable"
 }
