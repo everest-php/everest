@@ -22,7 +22,7 @@ date_default_timezone_set ( "Europe/Copenhagen" );
 if(!defined("BASE_DIR")){
     define("BASE_DIR", dirname(__DIR__));
     define("BASE_URL_RELATIVE", explode($_SERVER['DOCUMENT_ROOT'], str_replace( DIRECTORY_SEPARATOR, "/", BASE_DIR) )[1].'/');
-    define("BASE_URL", REQUEST_SCHEME.'://'.$_SERVER['HTTP_HOST'].''.BASE_URL_RELATIVE);
+    define("BASE_URL", REQUEST_SCHEME.'://'.$_SERVER['HTTP_HOST'].'/'.BASE_URL_RELATIVE);
 }
 
 //Grabbing constants
