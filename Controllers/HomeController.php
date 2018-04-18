@@ -13,6 +13,7 @@
 
         public function about(){
             return view(DEFAULT_VIEW)->title('About');
+        }
 
         public function square($num){
             return $num * $num;
