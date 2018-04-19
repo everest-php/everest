@@ -2,14 +2,14 @@
 
 namespace ViewComponents;
 
-use hooks\MVC\ViewComponent;
+use everest\MVC\ViewComponent;
 
 class NavigationViewComponent extends ViewComponent
 {
 
     public function __construct()
     {
-        $this->registeredVariables["app"] = "My Hooks App";
+        $this->registeredVariables["app"] = "Everest PHP";
     }
 
 

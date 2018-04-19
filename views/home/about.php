@@ -4,9 +4,9 @@
 @block('content')
 <div class="container">
 
-<h4>About Hooks Framework</h4>
+<h4>About Everest PHP Framework</h4>
 <p>
-    @string('Nepal')
+    Everest is a web-api ready, powerful yet lightweight PHP framework for rapid development.
 </p>
 
 </div>

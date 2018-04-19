@@ -2,7 +2,7 @@
 
     namespace Controllers;
 
-    use hooks\MVC\Controller;
+    use everest\MVC\Controller;
 
     class HomeController extends Controller {
 
