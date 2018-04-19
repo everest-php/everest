@@ -1,7 +1,7 @@
 {
     "name": "everest-php/everest",
     "description": "Hooks is a Powerful yet Lightweight PHP Framework for rapid development.",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "type": "project",
     "require": {
         "everest-php/framework": "1.1.0",
