@@ -17,7 +17,7 @@ Docs are not being created. If you would like to contribute, please email to tik
 If you get the "Permission Denied Error" with razr Engine. The '.cache' folder should have read/write permissions by the web-server. `sudo` may not be necessary.
 - Give ownership to www-data (In macOS, replace `www:data` with `_www`)
 
-    `sudo chown -R .cache www-data:www-data`
+    `sudo chown -R www-data:www-data .cache`
     
 - Set permissions to read/write
 
