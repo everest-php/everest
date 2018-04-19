@@ -1,17 +1,17 @@
 <?php
 
-use hooks\MVC\View;
-use hooks\MVC\Redirect;
-use hooks\MVC\Route;
-use hooks\Storage\DB;
-use hooks\HooksApp;
-use hooks\Utils\Curl;
-use hooks\DataBase\Statements\DeleteStatement;
-use hooks\DataBase\Statements\InsertStatement;
-use hooks\DataBase\Statements\SelectStatement;
-use hooks\DataBase\Statements\UpdateStatement;
-use hooks\Form\FormBuilder;
-use hooks\Media\Image;
+use everest\MVC\View;
+use everest\MVC\Redirect;
+use everest\MVC\Route;
+use everest\Storage\DB;
+use everest\HooksApp;
+use everest\Utils\Curl;
+use everest\DataBase\Statements\DeleteStatement;
+use everest\DataBase\Statements\InsertStatement;
+use everest\DataBase\Statements\SelectStatement;
+use everest\DataBase\Statements\UpdateStatement;
+use everest\Form\FormBuilder;
+use everest\Media\Image;
 
 function image(string $path, float $width = null, float $height = null) {
     $image = new Image($path);

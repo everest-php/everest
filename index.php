@@ -36,7 +36,7 @@ require_once __DIR__  . '/vendor/autoload.php';
     +--------------------------------------------------------------------+
     +                                                                    +
     +   Let's Route the URL from Route class below:                      +
-    +   Route class is aliased as hooks\MVC\Route                        +
+    +   Route class is aliased as everest\MVC\Route                        +
     +   Configure Routes at : [config/routes.php]                        +
     +                                                                    +
     +--------------------------------------------------------------------+
