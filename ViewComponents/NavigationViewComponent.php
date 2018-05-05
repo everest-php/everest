@@ -12,5 +12,4 @@ class NavigationViewComponent extends ViewComponent
         $this->registeredVariables["app"] = "Everest PHP";
     }
 
-
 }
