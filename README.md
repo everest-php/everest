@@ -22,3 +22,8 @@ If you get the "Permission Denied Error" with razr Engine. The '.cache' folder s
 - Set permissions to read/write
 
     `sudo chmod -R 0755 .cache`
+
+Apps made using Everest:
+- https://madeinnepal.dk/
+- https://nepalitickets.com/
+- https://fusionstak.com/
